@@ -101,4 +101,7 @@ const template = `
 },
 `
 
+// const unfundedCount = GAMES_JSON.filter(game => game.pledged < game.goal).length;
+// console.log("Unfunded games:", unfundedCount);
+
 export default games;
